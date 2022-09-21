@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="logo.ico" />
+    <None Remove="Resourses\logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="logo.ico" />
+    <Resource Include="Resourses\logo.png" />
+  </ItemGroup>
+
+</Project>
